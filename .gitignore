@@ -1,0 +1,52 @@
+# Binaries and object files
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+
+# Compiled executables in subdirectories
+bitStuff/receiver
+bitStuff/transmitter
+byteCount/byteCount_Recv
+byteCount/byteCount_Trans
+byteCount/receiver
+byteCount/transmitter
+byteStuff/receiver
+byteStuff/transmitter
+Calculator/Calculator_Client
+Calculator/Calculator_Server
+CRC/receiver
+CRC/transmitter
+DSSS/DSSS_Receiver
+DSSS/DSSS_Transmitter
+FHSS/freqHop_Receiver
+FHSS/freqHop_Transmitter
+GBN/receiver
+GBN/transmitter
+GBN/transmitter2
+Hamming/receiver
+Hamming/transmitter
+slidWin/receiver
+slidWin/transmitter
+SR/receiver
+SR/transmitter
+swNoiceless/receiver
+swNoiceless/transmitter
+swNoisy/receiver
+swNoisy/transmitter
+UDP/clientUDP
+UDP/serverUDP
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*~
